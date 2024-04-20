@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "NaoQNN"
+version = "1.0.0"
+description = "Training and inference of quantized neural networks for NAO robots."
+authors = [
+    "Felix Thielke <fthielke@uni-bremen.de>",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "naoqnn" }]
+
+[tool.poetry.dependencies]
+tensorflow = "2.14.0"
+onnx = { version = "^1.13.0", optional = true }
+
+[tool.poetry.extras]
+onnx = ["onnx"]
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

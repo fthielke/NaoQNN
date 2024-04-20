@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- SPDX-License-Identifier: MIT -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="420.52756"
+   height="473.44095"
+   fill="#ffffff"
+   fill-rule="evenodd"
+   stroke="#000000"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   font-family="Roboto"
+   font-size="14px"
+   text-anchor="middle"
+   version="1.1"
+   id="svg233"
+   sodipodi:docname="quantization-scheme.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata237">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     id="namedview235"
+     showgrid="false"
+     inkscape:zoom="1.713268"
+     inkscape:cx="241.93927"
+     inkscape:cy="241.64364"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg233"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs6">
+    <path
+       id="reuse-0"
+       fill="none"
+       d="M 0,0 H 151.18111 V 37.795277 H 0 Z" />
+    <path
+       id="reuse-1"
+       fill="none"
+       d="M 0,0 H 151.18111 V 56.692917 H 0 Z" />
+    <path
+       id="reuse-2"
+       fill="none"
+       d="M 1e-5,1e-5 0,24.5158" />
+    <path
+       id="reuse-3"
+       fill="none"
+       d="M 0,0 H 41.574806 V 18.897638 H 0 Z" />
+  </defs>
+  <defs
+     id="defs9">
+    <path
+       id="thin.end"
+       stroke="none"
+       d="M 0,0 3,10 H -3 Z" />
+  </defs>
+  <g
+     transform="translate(0.49999858,0.50003873)"
+     id="g21">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect11"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g19">
+      <use
+         xlink:href="#reuse-0"
+         id="use13"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text17"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="23.517639"
+           id="tspan15"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Input</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(185.69683,0.49999973)"
+     id="g45">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect35"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g43">
+      <use
+         xlink:href="#reuse-0"
+         id="use37"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text41"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="23.517639"
+           id="tspan39"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Weights</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(68.531449,45.854361)"
+     id="g135">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect125"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g133">
+      <use
+         xlink:href="#reuse-3"
+         id="use127"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text131"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan129"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">uint8</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(98.064669,38.295381)"
+     id="g51">
+    <path
+       fill="none"
+       d="M 1e-5,1e-5 32.350201,27.821199"
+       id="path47" />
+    <use
+       xlink:href="#thin.end"
+       x="39.553001"
+       y="34.015598"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(130.696,39.553001,34.015598)"
+       id="use49"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(202.22135,38.295281)"
+     id="g57">
+    <path
+       fill="none"
+       d="M 37.971,1e-5 7.0759001,27.6768"
+       id="path53" />
+    <use
+       xlink:href="#thin.end"
+       y="34.015701"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(-131.855,0,34.015701)"
+       id="use55"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(223.49209,45.854361)"
+     id="g147">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect137"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g145">
+      <use
+         xlink:href="#reuse-3"
+         id="use139"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text143"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan141"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">int6</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(94.988179,72.311021)"
+     id="g33">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect23"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g31">
+      <use
+         xlink:href="#reuse-1"
+         id="use25"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text29"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="32.966457"
+           id="tspan27"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Matrix multiplication</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(170.57873,129.00388)"
+     id="g123">
+    <use
+       xlink:href="#reuse-2"
+       id="use119"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use121"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(174.35824,136.56296)"
+     id="g159">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect149"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g157">
+      <use
+         xlink:href="#reuse-3"
+         id="use151"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text155"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan153"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">int16</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(94.988199,163.01969)"
+     id="g69">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect59"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g67">
+      <use
+         xlink:href="#reuse-1"
+         id="use61"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text65"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="32.966457"
+           id="tspan63"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Scale</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(268.84644,181.91731)"
+     id="g93">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect83"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g91">
+      <use
+         xlink:href="#reuse-0"
+         id="use85"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text89"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke;"><tspan
+           x="75.590553"
+           y="23.517639"
+           id="tspan87"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Bias</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(170.57873,219.71253)"
+     id="g105">
+    <use
+       xlink:href="#reuse-2"
+       id="use101"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use103"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(174.35824,227.27162)"
+     id="g171">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect161"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g169">
+      <use
+         xlink:href="#reuse-3"
+         id="use163"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text167"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan165"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">int16</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(231.2269,219.71253)"
+     id="g99">
+    <path
+       fill="none"
+       d="M 72.778,1e-5 8.6063004,29.993299"
+       id="path95" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(-115.051,0,34.0158)"
+       id="use97"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(275.85063,231.05122)"
+     id="g183">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect173"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g181">
+      <use
+         xlink:href="#reuse-3"
+         id="use175"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text179"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan177"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">int16</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(94.988169,253.72833)"
+     id="g81">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect71"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g79">
+      <use
+         xlink:href="#reuse-1"
+         id="use73"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text77"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="32.966457"
+           id="tspan75"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Add bias</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(170.57872,310.42128)"
+     id="g189">
+    <path
+       fill="none"
+       d="M 1e-5,1e-5 0,24.515699"
+       id="path185" />
+    <use
+       xlink:href="#thin.end"
+       y="34.015701"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.015701)"
+       id="use187"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(174.35824,317.98029)"
+     id="g201">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect191"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g199">
+      <use
+         xlink:href="#reuse-3"
+         id="use193"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text197"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan195"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.33329964px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">int16</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(94.988169,344.43702)"
+     id="g117">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect107"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g115">
+      <use
+         xlink:href="#reuse-1"
+         id="use109"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text113"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="32.966457"
+           id="tspan111"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Pack</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(170.57872,401.12988)"
+     id="g219">
+    <use
+       xlink:href="#reuse-2"
+       id="use215"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use217"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     transform="translate(170.57872,408.68895)"
+     id="g231">
+    <rect
+       width="11mm"
+       height="5mm"
+       fill="none"
+       stroke="none"
+       id="rect221"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g229">
+      <use
+         xlink:href="#reuse-3"
+         id="use223"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text227"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="20.787403"
+           y="14.068819"
+           id="tspan225"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">uint8</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="translate(94.988169,435.14568)"
+     id="g213">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect203"
+       x="0"
+       y="0" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g211">
+      <use
+         xlink:href="#reuse-0"
+         id="use205"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text209"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+           x="75.590553"
+           y="23.517639"
+           id="tspan207"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Output</tspan></text>
+    </g>
+  </g>
+</svg>

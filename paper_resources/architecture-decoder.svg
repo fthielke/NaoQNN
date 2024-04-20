@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- SPDX-License-Identifier: MIT -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11.254436in"
+   height="1.8336133in"
+   fill="#ffffff"
+   fill-rule="evenodd"
+   stroke="#000000"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   font-family="Roboto"
+   font-size="14px"
+   text-anchor="middle"
+   version="1.1"
+   id="svg233"
+   sodipodi:docname="architecture-decoder.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata237">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview235"
+     showgrid="false"
+     inkscape:zoom="0.86200801"
+     inkscape:cx="585.89397"
+     inkscape:cy="117.01271"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg233"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0"
+     units="in" />
+  <defs
+     id="defs6">
+    <marker
+       style="overflow:visible"
+       id="marker1739"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1737" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1675"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1673" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1144" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1138" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1265" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1268" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1132" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1150" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1401"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1399" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1126" />
+    </marker>
+    <path
+       id="reuse-0"
+       fill="none"
+       d="M 0,0 H 151.18111 V 37.795277 H 0 Z" />
+    <path
+       id="reuse-1"
+       fill="none"
+       d="M 0,0 H 151.18111 V 56.692917 H 0 Z" />
+    <path
+       id="reuse-2"
+       fill="none"
+       d="M 1e-5,1e-5 0,24.5158" />
+    <path
+       id="reuse-3"
+       fill="none"
+       d="M 0,0 H 41.574806 V 18.897638 H 0 Z" />
+  </defs>
+  <defs
+     id="defs9">
+    <path
+       id="thin.end"
+       stroke="none"
+       d="M 0,0 3,10 H -3 Z" />
+  </defs>
+  <g
+     transform="translate(0.5,68.690919)"
+     id="g213">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect203"
+       x="0"
+       y="0"
+       style="fill:#ffffcc;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g211">
+      <use
+         xlink:href="#reuse-0"
+         id="use205"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text209"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="75.092667"
+         y="13.016629"><tspan
+           sodipodi:role="line"
+           x="75.092667"
+           y="13.016629"
+           id="tspan56">Latent features</tspan><tspan
+           sodipodi:role="line"
+           x="75.092667"
+           y="32.183254"
+           id="tspan60">(flattened)</tspan></text>
+    </g>
+  </g>
+  <g
+     id="g945"
+     transform="translate(186.08318,0.5)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect935"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g943">
+      <use
+         xlink:href="#reuse-1"
+         id="use937"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text941"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan1972"
+           x="74.127342"
+           y="32.603107">DenseBNReLU</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,183.32224,-154.4758)"
+     id="g66">
+    <use
+       xlink:href="#reuse-2"
+       id="use62"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use64"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text145"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="44.329582"
+     x="352.99335"><tspan
+       sodipodi:role="line"
+       id="tspan143"
+       x="352.99335"
+       y="44.329582">32</tspan></text>
+  <g
+     id="g78"
+     transform="translate(371.76371,0.5)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect68"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g76">
+      <use
+         xlink:href="#reuse-1"
+         id="use70"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text74"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan72"
+           x="74.127342"
+           y="32.603107">DenseBNReLU</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,276.13019,-247.28375)"
+     id="g102">
+    <use
+       xlink:href="#reuse-2"
+       id="use98"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use100"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text149"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="44.329582"
+     x="540.05994"><tspan
+       sodipodi:role="line"
+       id="tspan147"
+       x="540.05994"
+       y="44.329582">64</tspan></text>
+  <g
+     id="g114"
+     transform="translate(557.3796,0.5)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect104"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g112">
+      <use
+         xlink:href="#reuse-1"
+         id="use106"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text110"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan108"
+           x="74.127342"
+           y="32.603107">DenseBNReLU</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,368.96556,-340.11912)"
+     id="g120">
+    <use
+       xlink:href="#reuse-2"
+       id="use116"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use118"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text153"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="44.329582"
+     x="725.09869"><tspan
+       sodipodi:role="line"
+       id="tspan151"
+       x="725.09869"
+       y="44.329582">16</tspan></text>
+  <g
+     id="g133"
+     transform="translate(743.05035,0.5)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect122"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g130">
+      <use
+         xlink:href="#reuse-1"
+         id="use124"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text128"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan126"
+           x="74.127342"
+           y="32.603107">Dense + Softmax</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,461.86516,-433.01872)"
+     id="g159">
+    <use
+       xlink:href="#reuse-2"
+       id="use155"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use157"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text163"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="44.329582"
+     x="909.12354"><tspan
+       sodipodi:role="line"
+       id="tspan161"
+       x="909.12354"
+       y="44.329582">2</tspan></text>
+  <g
+     transform="translate(928.74474,9.948818)"
+     id="g177">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect165"
+       x="0"
+       y="0"
+       style="fill:#ffffcc;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g175">
+      <use
+         xlink:href="#reuse-0"
+         id="use167"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text173"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="75.092667"
+         y="13.016629"><tspan
+           sodipodi:role="line"
+           x="75.092667"
+           y="13.016629"
+           id="tspan171">Classification</tspan><tspan
+           sodipodi:role="line"
+           x="75.092667"
+           y="32.183254"
+           id="tspan181">output</tspan></text>
+    </g>
+  </g>
+  <g
+     id="g199"
+     transform="translate(186.08318,118.83396)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect189"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g197">
+      <use
+         xlink:href="#reuse-1"
+         id="use191"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text195"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan193"
+           x="74.127342"
+           y="32.603107">DenseBNReLU</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,242.48922,-95.308815)"
+     id="g205">
+    <use
+       xlink:href="#reuse-2"
+       id="use201"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use203"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text210"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="162.66354"
+     x="352.99335"><tspan
+       sodipodi:role="line"
+       id="tspan207"
+       x="352.99335"
+       y="162.66354">32</tspan></text>
+  <g
+     id="g222"
+     transform="translate(371.76371,118.83396)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect212"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g220">
+      <use
+         xlink:href="#reuse-1"
+         id="use214"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text218"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan216"
+           x="74.127342"
+           y="32.603107">DenseBNReLU</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,335.29717,-188.11677)"
+     id="g228">
+    <use
+       xlink:href="#reuse-2"
+       id="use224"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use226"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text232"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="162.66354"
+     x="540.05994"><tspan
+       sodipodi:role="line"
+       id="tspan230"
+       x="540.05994"
+       y="162.66354">64</tspan></text>
+  <g
+     id="g244"
+     transform="translate(557.3796,118.83396)">
+    <rect
+       width="151.18111"
+       height="15mm"
+       fill="#ccffff"
+       id="rect234"
+       x="0"
+       y="0"
+       style="fill:#ffd8fe;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g242">
+      <use
+         xlink:href="#reuse-1"
+         id="use236"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text240"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="74.127342"
+         y="32.603107"><tspan
+           sodipodi:role="line"
+           id="tspan238"
+           x="74.127342"
+           y="32.603107">DenseBNReLU</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="rotate(-90,428.13123,-280.95083)"
+     id="g272">
+    <use
+       xlink:href="#reuse-2"
+       id="use268"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#thin.end"
+       y="34.0158"
+       fill="#000000"
+       class="EndArrow.cls"
+       transform="rotate(180,0,34.0158)"
+       id="use270"
+       x="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <text
+     fill="#000000"
+     paint-order="stroke"
+     id="text276"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;paint-order:stroke"
+     y="162.66354"
+     x="723.32172"><tspan
+       sodipodi:role="line"
+       id="tspan274"
+       x="723.32172"
+       y="162.66354">3</tspan></text>
+  <g
+     transform="translate(742.94292,128.28278)"
+     id="g290">
+    <rect
+       width="151.18111"
+       height="10mm"
+       fill="#eeffcc"
+       rx="15"
+       id="rect278"
+       x="0"
+       y="0"
+       style="fill:#ffffcc;fill-opacity:1" />
+    <g
+       stroke="none"
+       class="Text.cls"
+       id="g288">
+      <use
+         xlink:href="#reuse-0"
+         id="use280"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <text
+         fill="#000000"
+         paint-order="stroke"
+         id="text286"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3333px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;paint-order:stroke"
+         x="75.092667"
+         y="22.730963"><tspan
+           sodipodi:role="line"
+           id="tspan294"
+           x="75.092667"
+           y="22.730963">Center (x,y), Radius</tspan></text>
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1739)"
+     d="M 146.12978,71.849569 185.38853,28.851898"
+     id="path296"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1675)"
+     d="m 146.44135,102.69573 38.32402,44.24398"
+     id="path298"
+     sodipodi:nodetypes="cc" />
+</svg>

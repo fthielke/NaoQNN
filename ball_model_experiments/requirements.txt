@@ -1,0 +1,4 @@
+scikit-learn==1.4.2
+seaborn==0.13.2
+h5py=3.11.0
+PyYAML=6.0.1

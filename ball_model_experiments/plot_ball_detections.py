@@ -15,8 +15,8 @@ def plot_ball_detections(model1, model2, num_images: int = 8, indices=None):
     images = test[0].numpy()[pos_mask]
     del test
 
-    results1 = np.load('weights_new/' + '/'.join(str(c.value) for c in model1) + '/results_test.npz')['circles'][0,pos_mask]
-    results2 = np.load('weights_new/' + '/'.join(str(c.value) for c in model2) + '/results_test.npz')['circles'][0,pos_mask]
+    results1 = np.load('weights/' + '/'.join(str(c.value) for c in model1) + '/results_test.npz')['circles'][0,pos_mask]
+    results2 = np.load('weights/' + '/'.join(str(c.value) for c in model2) + '/results_test.npz')['circles'][0,pos_mask]
 
     if not indices:
         indices = np.random.permutation(images.shape[0])[:num_images]

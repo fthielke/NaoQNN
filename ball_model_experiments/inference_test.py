@@ -9,10 +9,10 @@ from train_ball_model import MODEL_CONFIGURATIONS, RANGE_CENTER, RANGE_RADIUS
 
 
 def perform_inference(dataset, model_config):
-    if os.path.exists('weights_new/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz'):
+    if os.path.exists('weights/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz'):
         return
 
-    n_models = 1 + next(i for i in range(9, -1, -1) if os.path.exists('weights_new/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{i}.index'))
+    n_models = 1 + next(i for i in range(9, -1, -1) if os.path.exists('weights/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{i}.index'))
     if n_models < 10:
         print(f'Warning: only {n_models} of 10 expected models found')
 
@@ -30,12 +30,12 @@ def perform_inference(dataset, model_config):
     predictions = np.empty((n_models, len(test)))
     circles = np.empty((n_models, len(test), 3))
     for i in range(n_models):
-        model.load_weights('weights_new/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{i}').expect_partial()
+        model.load_weights('weights/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{i}').expect_partial()
         outputs = model.predict(test.batch(128).prefetch(buffer_size=tf.data.AUTOTUNE))
         predictions[i] = outputs['scores'][:,1]
         circles[i] = outputs['circles']
 
-    np.savez_compressed('weights_new/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz', predictions=predictions, circles=circles)
+    np.savez_compressed('weights/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz', predictions=predictions, circles=circles)
 
 if __name__ == '__main__':
     train, val, test = load_data()

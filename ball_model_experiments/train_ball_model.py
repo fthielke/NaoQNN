@@ -94,14 +94,14 @@ if __name__ == '__main__':
 
     count = 0
     while count < 10:
-        if not os.path.exists('weights_new/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{count}.index'):
+        if not os.path.exists('weights/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{count}.index'):
             break
         count += 1
 
     while count < 10:
         success = train_model(
             model_config,
-            'weights_new/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{count}',
+            'weights/' + '/'.join(str(c.value) for c in model_config) + f'/weights_{count}',
             train,
             val
         )

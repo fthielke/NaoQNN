@@ -54,9 +54,9 @@ def mean_circle_iou(circles_true, circles_pred):
 
 
 def calculate_metrics(model_config, test):
-    # results_original = np.load('weights_new/gerrit_original/gerrit_original/gerrit_original/results_test.npz')
+    # results_original = np.load('weights/gerrit_original/gerrit_original/gerrit_original/results_test.npz')
     try:
-        results = np.load('weights_new/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz')
+        results = np.load('weights/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz')
     except:
         return
     
@@ -96,7 +96,7 @@ def create_latex_table(test):
     circ_test = test[pos_mask,1:]
 
     for model in (model_config for i in range(4) for model_config in MODEL_CONFIGURATIONS[i::4]):
-        results = np.load('weights_new/' + '/'.join(str(c.value) for c in model) + '/results_test.npz')
+        results = np.load('weights/' + '/'.join(str(c.value) for c in model) + '/results_test.npz')
 
         circ_pred = results['circles'][:,pos_mask]
 
@@ -125,7 +125,7 @@ def create_plots(test):
     for model_config in MODEL_CONFIGURATIONS:
         if not MEASURED_INFERENCE_TIME[model_config]:
             continue
-        results = np.load('weights_new/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz')
+        results = np.load('weights/' + '/'.join(str(c.value) for c in model_config) + '/results_test.npz')
         circ_pred = results['circles'][:,pos_mask]
         for i, (auc, circle_iou) in enumerate((roc_auc_score(test[:,0], results['predictions'][i]), mean_circle_iou(circ_test, circ_pred[i])) for i in range(results['predictions'].shape[0])):
             data.append({
@@ -182,8 +182,8 @@ def create_diff_plots(test):
     data = []
 
     for float_model, quan_model in zip(MODEL_CONFIGURATIONS[:4], MODEL_CONFIGURATIONS[4:]):
-        results_float = np.load('weights_new/' + '/'.join(str(c.value) for c in float_model) + '/results_test.npz')
-        results_quan = np.load('weights_new/' + '/'.join(str(c.value) for c in quan_model) + '/results_test.npz')
+        results_float = np.load('weights/' + '/'.join(str(c.value) for c in float_model) + '/results_test.npz')
+        results_quan = np.load('weights/' + '/'.join(str(c.value) for c in quan_model) + '/results_test.npz')
 
         circ_pred_float = results_float['circles'][:,pos_mask]
         circ_pred_quan = results_quan['circles'][:,pos_mask]
@@ -247,8 +247,8 @@ def quantized_t_tests(test):
     circ_test = test[pos_mask,1:]
 
     for float_model, quan_model in zip(MODEL_CONFIGURATIONS[:4], MODEL_CONFIGURATIONS[4:]):
-        results_float = np.load('weights_new/' + '/'.join(str(c.value) for c in float_model) + '/results_test.npz')
-        results_quan = np.load('weights_new/' + '/'.join(str(c.value) for c in quan_model) + '/results_test.npz')
+        results_float = np.load('weights/' + '/'.join(str(c.value) for c in float_model) + '/results_test.npz')
+        results_quan = np.load('weights/' + '/'.join(str(c.value) for c in quan_model) + '/results_test.npz')
 
         circ_pred_float = results_float['circles'][:,pos_mask]
         circ_pred_quan = results_quan['circles'][:,pos_mask]

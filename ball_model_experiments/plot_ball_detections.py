@@ -1,5 +1,4 @@
 # SPDX-License-Identifier: MIT
-import sys
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt

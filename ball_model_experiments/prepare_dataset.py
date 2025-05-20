@@ -17,6 +17,9 @@ def prepare_dataset():
     if not os.path.exists(DATA_SPLIT_FILENAME):
         create_data_split(balls)
 
+    if not all(os.path.exists(path) for path in ('balls_ds_training_pos', 'balls_ds_training_neg', 'balls_ds_validation', 'balls_ds_test')):
+        convert_to_tf_datasets(balls)
+
 def create_data_split(dataset):
     num_test_cases = int(len(dataset['positives/data']) * TEST_RATIO)
     num_val_cases = int(len(dataset['positives/data']) * VAL_RATIO)

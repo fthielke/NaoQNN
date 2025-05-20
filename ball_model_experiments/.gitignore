@@ -1,0 +1,8 @@
+/b-alls-2019.hdf5
+/balls_ds_training_pos
+/balls_ds_training_neg
+/balls_ds_validation
+/balls_ds_test
+/weights
+/test_models/*.s
+/test_models/*.h5

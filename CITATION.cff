@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: NaoQNN
+message: If you use this software, please cite the referenced paper.
+type: software
+authors:
+  - given-names: Felix
+    family-names: Thielke
+    orcid: 'https://orcid.org/0000-0003-1627-6135'
+repository-code: 'https://github.com/fthielke/NaoQNN'
+license: MIT
+preferred-citation:
+  type: conference-paper
+  authors:
+    - given-names: Felix
+      family-names: Thielke
+      orcid: 'https://orcid.org/0000-0003-1627-6135'
+  title: "Quantized Neural Networks for Ball Detection on the NAO Robot: An Optimized Implementation"
+  doi: 10.1007/978-3-031-85859-8_9
+  collection-doi: 10.1007/978-3-031-85859-8
+  collection-title: "RoboCup 2024: Robot World Cup XXVII"
+  collection-type: proceedings
+  conference:
+      name: "RoboCup 2024"
+  editors:
+    - given-names: Edna
+      family-names: Barros
+    - given-names: Josiah P.
+      family-names: Hanna
+    - given-names: Hiroyuki
+      family-names: Okada
+    - given-names: Elena
+      family-names: Torta
+  journal: Lecture Notes in Computer Science
+  publisher:
+    name: Springer Nature Switzerland
+    city: Cham
+  isbn: 978-3-031-85859-8
+  issue: 15570
+  start: 104
+  end: 115
+  abstract: "Improving the latency of neural networks on low-end hardware such as the NAO robot used in the RoboCup Standard Platform league has been a relevant research topic since deep learning models can be effectively used for real-time computer vision. This paper focuses on optimizing the implementation of quantized neural networks (QNNs) for ball detection on the NAO V6 robot. The goal is to improve inference speed and reduce memory usage."

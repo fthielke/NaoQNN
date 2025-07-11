@@ -36,6 +36,7 @@ preferred-citation:
     city: Cham
   isbn: 978-3-031-85859-8
   issue: 15570
+  year: 2025
   start: 104
   end: 115
   abstract: "Improving the latency of neural networks on low-end hardware such as the NAO robot used in the RoboCup Standard Platform league has been a relevant research topic since deep learning models can be effectively used for real-time computer vision. This paper focuses on optimizing the implementation of quantized neural networks (QNNs) for ball detection on the NAO V6 robot. The goal is to improve inference speed and reduce memory usage."
